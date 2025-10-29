@@ -1,0 +1,64 @@
+// Abstracts
+@use "./abstracto/variables";
+@use "./abstracto/mixins";
+
+// Base
+@use "./base/fondo";
+@use "./base/tipografia";
+
+// diseño general
+@use "./diseñogral/header";
+@use "./diseñogral/footer";
+@use "./diseñogral/formulario";
+
+// Componentes
+@use "./componentes/carousel";
+
+// Pages
+@use "./pages/index";
+@use "./pages/nosotros";
+@use "./pages/clases";
+@use "./pages/inscripcion";
+
+/* RESPONSIVE */
+
+/*mobile*/
+@media (max-width:480px) {
+    .logoconfondo {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+    /* Fondo negro */
+    .navbar-custom {
+        background-color: #000 !important;
+
+        /* Links en amarillo */
+        .nav-link {
+            color: yellow !important;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            &:hover {
+                color: #fff200 !important; /* amarillo más brillante */
+            }
+        }
+    }
+
+    /* Hamburguesa amarilla */
+    .navbar-toggler {
+        border-color: yellow;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E");
+    }
+}
+
+/* tablet */
+@media (min-width:481px) and (max-width:780px) {
+    
+}

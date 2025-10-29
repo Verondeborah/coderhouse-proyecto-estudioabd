@@ -1,0 +1,65 @@
+/* Estilo general del contenedor del formulario */
+.form {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 50px auto; /* Centrado horizontal y separación arriba/abajo */
+    padding: 30px; /* Espaciado interno */
+    background-color: #1e1e1e; /* Color de fondo oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Sombra suave alrededor */
+
+    /* Estilo para todos los labels del formulario */
+    label {
+        display: block; /* Hace que cada label esté en una línea nueva */
+        margin-bottom: 8px; /* Espacio debajo del label */
+        font-family: "Orbitron", sans-serif; /* Fuente personalizada */
+        color: #fff; /* Color blanco para el texto */
+        font-size: 16px; /* Tamaño de texto */
+    }
+
+    /* Estilo para todos los inputs, selects y textareas dentro del formulario */
+    input,
+    select,
+    textarea {
+        width: 100%; /* Ocupa todo el ancho disponible del contenedor */
+        padding: 10px 12px; /* Espaciado interno */
+        margin-bottom: 10px; /* Espacio debajo del elemento */
+        border-radius: 5px; /* Bordes redondeados */
+        border: none; /* Sin borde predeterminado */
+        font-size: 15px; /* Tamaño del texto dentro del campo */
+        background-color: #333; /* Fondo oscuro */
+        color: #fff; /* Texto blanco */
+        box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+    }
+
+    /* Estilo específico para las opciones del desplegable */
+    select option {
+        background-color: #333; /* Fondo oscuro */
+        color: #fff; /* Texto blanco */
+    }
+
+    /* Estilo especial para el textarea */
+    textarea {
+        resize: vertical; /* Permite al usuario agrandar el textarea verticalmente */
+        min-height: 100px; /* Altura mínima del textarea */
+    }
+
+    /* Estilo para el botón de enviar */
+    button {
+        display: block; /* Que el botón sea un bloque */
+        width: 100%; /* Que ocupe todo el ancho */
+        padding: 12px; /* Espaciado interno */
+        background-color: rgb(89, 89, 86); /* Color de fondo  */
+        color: black; /* Texto blanco */
+        font-family: "Orbitron", sans-serif; /* Fuente */
+        border: none; /* Sin borde */
+        border-radius: 5px; /* Bordes redondeados */
+        cursor: pointer; /* Cambia el cursor a mano al pasar por encima */
+        font-size: 16px; /* Tamaño del texto */
+        transition: background-color 0.3s ease; /* Transición suave para hover */
+
+        /* Efecto cuando el usuario pasa el mouse por encima del botón */
+        &:hover {
+            background-color: yellow; /* Color al hacer hover */
+        }
+    }
+}

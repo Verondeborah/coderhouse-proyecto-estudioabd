@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+/*  font-family: "Sedgwick Ave Display", cursive;    PARA TITULOS  */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/*font-family: "Orbitron", sans-serif;      PARA TEXTO*/
+
+.titulo {
+    text-align: center;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-size: 100px;
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+.texto {
+    font-family: "Orbitron", sans-serif;
+    font-size: medium;
+    color: white;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}

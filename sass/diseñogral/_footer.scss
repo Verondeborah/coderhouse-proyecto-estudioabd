@@ -1,0 +1,21 @@
+/*------------------footer--------------------*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+
+    a i {
+        font-size: 30px;   /* tamaño del ícono */
+        color: white;      /* color del ícono */
+        margin: 0 10px;    /* separación entre íconos */
+        transition: 0.3s;  /* efecto suave en hover */
+
+        &:hover {
+            color: #ffcc00;    /* cambia color al pasar el mouse */
+        }
+    }
+}
+
+.direccion {
+    color: white;
+}

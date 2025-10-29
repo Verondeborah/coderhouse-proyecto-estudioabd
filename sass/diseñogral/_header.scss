@@ -1,0 +1,49 @@
+/* ------------ estilos para todos los HEADER -----------------*/
+
+header {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo {
+    width: 60px;
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0;
+
+    .nav-link {
+        display: flex;  /*activa flexbox*/
+        align-items: center;  /*centra verticalmente logo y menu*/
+        justify-content: space-between; /*espacio logo a la izquierda y menu a la derecha*/
+        padding: 10px 20px;
+        list-style: none;
+        font-size: 1.5rem;
+        font-family: "Orbitron", sans-serif;
+        color: white;
+        margin-bottom: 50px;
+
+        &:hover {
+            color: yellow;
+        }
+    }
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
