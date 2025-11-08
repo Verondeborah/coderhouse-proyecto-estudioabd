@@ -59,6 +59,77 @@
 }
 
 /* tablet */
-@media (min-width:481px) and (max-width:780px) {
-    
+@media (min-width:481px) and (max-width:1024px) {
+    .logoconfondo {
+        width: 90%;
+        max-width: 700px;
+        height: auto;
+        display: block;
+        margin: 30px auto;
+    }
+
+    .titulo {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+
+    .texto {
+        font-size: 20px;
+        margin: 7%;
+        padding: 0 20px;
+    }
+
+    p {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+
+    /* Header responsive */
+    .navbar-nav {
+        gap: 20px;
+        
+        .nav-link {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+    }
+
+    /* Carousel */
+    .carousel-inner {
+        height: 400px;
+    }
+
+    /* Formulario */
+    .form {
+        max-width: 600px;
+        margin: 30px auto;
+        padding: 40px;
+    }
+
+    /* Profe */
+    .profe {
+        width: 400px;
+    }
+
+    /* Mapa */
+    .mapa {
+        max-width: 700px;
+        height: 400px;
+    }
+
+    /* Footer */
+    footer a i {
+        font-size: 35px;
+        margin: 0 15px;
+    }
+
+    /* Inscripción */
+    .subtitulo {
+        font-size: 28px;
+    }
+
+    .pasos {
+        font-size: 20px;
+        max-width: 600px;
+    }
 }
